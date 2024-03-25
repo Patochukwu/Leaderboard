@@ -72,10 +72,6 @@ button:hover {
   margin-left: 1em;
 }
 
-h3, span {
-  
-}
-
 .item {
   display: flex;
   flex-direction: row;
