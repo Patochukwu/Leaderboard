@@ -136,13 +136,13 @@ button:hover {
   font-size: 40px
 }
 
-.location, .score, .text {
+.location, .score, .age, .path, .attendance, .position {
   font-size: 15px;
   margin-top: 10px;
   text-align: left;
 }
 
-.location span, .score span, .text span {
+.location span, .score span, .age span, .path span, .attendance span, .position span {
   font-weight: bold
 }
 

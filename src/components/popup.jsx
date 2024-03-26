@@ -11,9 +11,11 @@ export default function Popup({show, data, setShow}) {
                 <div className="detailCon">
                     <h3 className='name'>{data.name}</h3>
                     <p className="location"><span>Location:</span> {data.location}</p>
-                    <p className="text"><span>Age:</span> {data.age}</p>
-                    {/* <p className="score"><span>Score:</span> {data.score}</p>
-                    <p className="score"><span>Score:</span> {data.score}</p> */}
+                    <p className="age"><span>Age:</span> {data.age}</p>
+                    <p className="path"><span>path:</span> {data.path}</p>
+                    <p className="attendance"><span>attendance:</span> {data.attendance}</p>
+                    <p className="position"><span>position:</span> {data.position}</p>
+                    <p className="score"><span>Score:</span> {data.score}</p>
                 </div>
         
             </div>
